@@ -8,7 +8,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Winkbrace\\PracticalTDD\\": "src/"
+            "Winkbrace\\PracticalTDD\\": "src/",
+            "Winkbrace\\PracticalTDD\\Tests\\Stubs\\": "tests/stubs/"
         }
     },
     "license": "MIT"
