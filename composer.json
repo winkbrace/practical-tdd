@@ -1,0 +1,15 @@
+{
+    "name": "winkbrace/practical-tdd",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^5.7",
+        "symfony/var-dumper": "^3.2",
+        "mockery/mockery": "^0.9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Winkbrace\\PracticalTDD\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
