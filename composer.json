@@ -1,6 +1,7 @@
 {
     "name": "winkbrace/practical-tdd",
     "type": "project",
+    "license": "MIT",
     "require": {
         "phpunit/phpunit": "^5.7",
         "symfony/var-dumper": "^3.2",
@@ -11,6 +12,5 @@
             "Winkbrace\\PracticalTDD\\": "src/",
             "Winkbrace\\PracticalTDD\\Tests\\Stubs\\": "tests/stubs/"
         }
-    },
-    "license": "MIT"
+    }
 }
