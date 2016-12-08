@@ -16,9 +16,9 @@
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="true">
             <directory suffix=".php">./src</directory>
-            <exclude>
-                <directory suffix=".blade.php">./src</directory>
-            </exclude>
         </whitelist>
     </filter>
+    <php>
+        <env name="APP_ENV" value="testing" />
+    </php>
 </phpunit>
